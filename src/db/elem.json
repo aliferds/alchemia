@@ -1,0 +1,10 @@
+{
+  "sun": {
+    "img": "elements/sun.webp",
+    "transmute": "fire + fire"
+  },
+  "sky": {
+    "img": "",
+    "transmute": "air + air"
+  }
+}
