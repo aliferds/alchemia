@@ -1,10 +1,8 @@
 {
-  "sun": {
-    "img": "elements/sun.webp",
+  "sol": {
     "transmute": "fire + fire"
   },
-  "sky": {
-    "img": "",
+  "ceu": {
     "transmute": "air + air"
   }
 }

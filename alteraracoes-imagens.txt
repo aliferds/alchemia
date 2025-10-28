@@ -1,0 +1,5 @@
+Drum e Drum2 são dois tipos de tambores (verificar qual usar ou colcoar nomes diferentes para ambos)
+
+Alterar glass
+
+Alterar plant2 para leaf

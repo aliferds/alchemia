@@ -11,7 +11,6 @@ import results from "../../db/elem.json";
 
 
 interface RecipeData {
-  img: string;
   transmute: string;
 };
 
@@ -20,10 +19,10 @@ type RecipesState = Record<string, RecipeData>;
 const LOCAL_STORAGE_KEY = 'alchemiaUnlockedRecipes';
 
 const BASE_RECIPES: RecipesState = {
-  "water": { "img": "", "transmute": "" },
-  "air": { "img": "", "transmute": "" },
-  "fire": { "img": "", "transmute": "" },
-  "earth": { "img": "", "transmute": "" }
+  "water": {"transmute": "" },
+  "air": {"transmute": "" },
+  "fire": {"transmute": "" },
+  "earth": {"transmute": "" }
 };
 
 const initializeRecipes = (): RecipesState => {
